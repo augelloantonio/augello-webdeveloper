@@ -1,0 +1,31 @@
+/* Info Section Style */
+
+
+.info-section {
+    background-color: #444444;
+}
+
+.row-info-section {
+    padding: 100px 0 100px 0;
+}
+
+.info-section-title {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+@media(max-width:556px) {
+    .info-section-title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+.hr-info-section {
+    background-color: white;
+}
+
+.text-info-section {
+    font-size: 15px;
+    font-weight: 300;
+}

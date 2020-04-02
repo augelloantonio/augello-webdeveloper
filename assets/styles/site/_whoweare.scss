@@ -1,0 +1,15 @@
+.user-card-header {
+    background-size: contain;
+    border-radius: 50% !important;
+    width: 150px !important;
+    height: 150px !important;
+    background-image: url('/assets/images/img_profile.jpg');
+}
+
+.skills-icon {
+    font-size: 18 !important;
+}
+
+.skills-icon>li {
+    display: grid;
+}

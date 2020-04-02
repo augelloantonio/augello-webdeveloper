@@ -1,0 +1,30 @@
+/* Services Section Style */
+
+
+.services-heart {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    background: linear-gradient(310deg, #12b395 50%, #13bd9d 50%);
+    padding: 35px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    margin: auto;
+    font-size: 27pt;
+}
+
+.services-text-header {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.services-text {
+    font-size: 14px;
+    color: #999999;
+    max-width: 50%;
+    margin: auto;
+}

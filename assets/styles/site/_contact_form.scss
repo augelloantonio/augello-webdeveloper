@@ -1,0 +1,26 @@
+/* COntact Form Style */
+
+
+.send_message_btn {
+    background-color: #1abc9c;
+    box-shadow: 0 2px 0px 0px #0e977e;
+}
+
+.contact_us_svg {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAAGUlEQVQYV2NkYGD4z8DAwMiABFA4MHHiBQFRIgEFs2bQbAAAAABJRU5ErkJggg==
+) repeat;
+    margin: 0;
+    padding: 0 5px 0 0;
+    max-height: 10px;
+    margin-top: 6px;
+}
+
+@media (max-width:556px) {
+    .contact_us_svg {
+        display: none;
+    }
+
+    .contact_us_title {
+        min-width: 100%;
+    }
+}

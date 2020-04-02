@@ -1,0 +1,50 @@
+/* General Style */
+html {
+    width: 100%;
+}
+
+
+body {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    display: inline-block;
+}
+
+hr {
+    width: 40px;
+    color: black;
+    height: 1px;
+    background-color: black
+}
+
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+/* Horizontal Line */
+.circle {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #dddddd;
+    border-radius: 50%;
+}
+
+.horizontal-line {
+    width: 100px;
+    background-color: #dddddd;
+    margin: 0;
+    margin: 7px;
+}
+
+.line {
+    max-width: 35%;
+    margin: auto;
+}

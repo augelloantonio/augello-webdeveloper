@@ -1,0 +1,16 @@
+@media (min-width:992px) {
+    .our-works-img:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        position: relative;
+        z-index: 1;
+        -moz-transition: all 2s;
+        -webkit-transition: all 2s;
+        -o-transition: all 2s;
+        transition: all 2s;
+    }
+}
+
+.our-works-img {
+    box-shadow: 0 0 6px 0px #545454;
+}

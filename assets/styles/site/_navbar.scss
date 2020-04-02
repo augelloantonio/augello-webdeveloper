@@ -1,0 +1,33 @@
+    /* Navbar styles */
+
+    .navbar {
+        border-bottom: 0.3px solid #dcdcdc;
+        padding: 0px;
+    }
+
+    .logo-navbar {
+        border-right: 0.3px solid #dcdcdc;
+    }
+
+    .pageheader-logo {
+        padding: 10px;
+        max-width: 140px;
+    }
+
+    a.nav-search {
+        color: rgba(0, 0, 0, .5) !important;
+    }
+
+    .search-item-navbar {
+        border-left: 0.1px solid #dcdcdc;
+        padding: 1rem;
+    }
+
+
+    @media (max-width:992px) {
+        .search-item-navbar {
+            border-left: none;
+            padding-left: none;
+            margin-left: none;
+        }
+    }

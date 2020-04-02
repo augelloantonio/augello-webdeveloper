@@ -1,0 +1,11 @@
+/* Footer Style */
+
+.footer-right-col {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .footer-right-col {
+        text-align: left;
+    }
+}

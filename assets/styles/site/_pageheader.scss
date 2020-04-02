@@ -1,0 +1,29 @@
+/* Page Header Style */
+
+
+.header-text {
+    color: white;
+    padding-top: 24%;
+    text-align: center;
+}
+
+
+.full-width-header {
+    height: 75vh;
+    max-height: 800px;
+    background-image: url('/assets/images/development.jpeg');
+    background-size: cover;
+    background-repeat: round;
+}
+
+.full-width-logo {
+    background-color: #000000a1;
+}
+
+.jumbotron-text {
+    font-size: 64px;
+}
+
+.lead {
+    color: #eeeeee;
+}

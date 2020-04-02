@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DevEire — Front End Styleguide">
+  <meta name="author" content="Antonio Augello">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <!--Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+
+  <!--FontAwesome-->
+  <script type="text/javascript">
+    (function () {
+      var css = document.createElement('link');
+      css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+      css.rel = 'stylesheet';
+      css.type = 'text/css';
+      document.getElementsByTagName('head')[0].appendChild(css);
+    })();
+  </script>
+
+  <!--Email JS-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_96n5MVsQfZCvUmDKXU673");
+    })();
+  </script>
+  <!--./Emailjs-->
+
+
+  <title>Augello Web Developer</title>
+
+</head>
+
+<body>
+  <!-- Page Header-->
+  <div class="full-width-header">
+    <div class="full-width-logo h-100">
+      <!--Jumbotron-->
+      <div class="callout-row jumbotron-container w-75 mx-auto h-100">
+        <div class="container h-100">
+          <div class="header-text">
+            <h1 class="jumbotron-text text-uppercase">Augello Web Developer</h1>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <!-- ./Jumbotron-->
+    </div>
+  </div>
+  <!-- End Page Header -->
+
+  <!--Navbar-->
+  <nav id="navbar" class="navbar fixed navbar-expand-md navbar-light light">
+    <div class="logo-navbar pageheader-logo">
+      Augello Web Developer
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servizi">Servizi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#info">Info Personali</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contatti">Contatti</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <!--EndNavbar-->
+
+  <!-- Main Content -->
+  <div class="page-main mt-5">
+
+    <!--Why Choose Us Section-->
+    <div class="container">
+      <div class="text-center">
+        <h2>Che si tratti di creare la tua presenza online o di aggiornare un vecchio sito web creando un contenuto
+          unico e singolare, puoi contare su di me.
+        </h2>
+      </div>
+
+      <hr class="section-hr mt-5 mb-5">
+
+      <div class="row">
+        <!--card 1-->
+        <div class="col-xs-12 col-md-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header mx-auto">
+              <img data-src="/assets/images/developer.jpg" class="w-100 h-100 lozad" alt="website">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-uppercase font-weight-bold">Creazione Siti Web</h5>
+              <p class="card-text text-muted">Reattivo e sempre aggiornato</p>
+              <p>Utilizzo le ultime tecnologie e tendenze per creare contenuti ottimizzati per l'utilizzo dell'utente.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--./card-->
+        <!--card 2-->
+        <div class="col-xs-12 col-md-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header mx-auto">
+              <img data-src="/assets/images/design.jpeg" class="w-100 h-100 lozad" alt="grafic design">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-uppercase font-weight-bold">Design Moderno</h5>
+              <p class="card-text text-muted">Per restare al passo con i tempi</p>
+              <p>Sbarazzati di quei vecchi design datati. Utilizzo solo contenuti moderni ed accattivanti per migliorare
+                l'esperienza di navigazione.</p>
+            </div>
+          </div>
+        </div>
+        <!--./card-->
+        <!--card 3-->
+        <div class="col-xs-12 col-md-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header update mx-auto">
+              <img data-src="/assets/images/update.png" class="w-100 h-100 lozad" alt="update">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-uppercase font-weight-bold">Aggiornamento Continuo</h5>
+              <p class="card-text text-muted">Affidatevi ad un esperto e rilassatevi.</p>
+              <p>Creiamo il vostro sito web, dal design alla grafica, ottimizzandone i risultati e la presenza
+                online.</p>
+            </div>
+          </div>
+        </div>
+        <!--./card-->
+      </div>
+    </div>
+    <!--End Why Choose Us Section-->
+
+
+    <!--Info Section-->
+    <div class="info-section w-100">
+      <div class="container">
+        <div class="row row-info-section text-uppercase text-center text-light">
+          <div class="col-12 info-section-col mb-5">
+            <div class="card-body">
+              <h5 class="card-title info-section-title">Professionalità</h5>
+              <hr class="hr-info-section">
+              <p class="card-text text-info-section text-uppercase">Attento a soddisfare le esigenze del cliente.</p>
+            </div>
+          </div>
+          <div class="col-12 mb-5">
+            <div class="card-body">
+              <h5 class="card-title info-section-title">Passione</h5>
+              <hr class="hr-info-section">
+              <p class="card-text text-info-section text-uppercase">Ho passione per quello che faccio.</p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card-body">
+              <h5 class="card-title info-section-title">Serietà</h5>
+              <hr class="hr-info-section">
+              <p class="card-text text-info-section text-uppercase">I miei clienti sono al centro della mia
+                attività.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Info Section-->
+
+
+    <!--Our Web Works-->
+    <div class="container mt-5" id="portfolio">
+      <div class="text-center">
+        <h1 class="text-uppercase font-weight-bold">Alcuni dei Miei Progetti Web</h1>
+        <h2>Prezzi flessibili e personalizzati in base alle esigenze</h2>
+      </div>
+    </div>
+
+    <hr class="section-hr mt-5 mb-5">
+
+    <!--Web Works Cards-->
+    <div class="container mb-5">
+      <div class="row">
+        <!--Row 1-->
+        <!--card 1-->
+        <div class="col-xs-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header mx-auto" style="background-size: contain;">
+              <img data-src="/assets/images/buyit_wireframe.jpg" class="w-100 h-100 our-works-img lozad" alt="buy-it">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-uppercase font-weight-bold"><a href="https://buyit-platform.herokuapp.com/"
+                  target="_blank">BuyIt</a></h5>
+              <p class="card-text text-muted">Piattaforma E-Commerce</p>
+            </div>
+          </div>
+        </div>
+        <!--./card-->
+        <!--card 2-->
+        <div class="col-xs-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header mx-auto">
+              <img data-src="/assets/images/travel-around.jpg" class="w-100 h-100 our-works-img lozad"
+                alt="travel around">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-uppercase font-weight-bold"><a
+                  href="https://travelaroundmilestone.herokuapp.com/" target="_blank">Travel Around</a></h5>
+              <p class="card-text text-muted">Comunità Social di Viaggiatori</p>
+            </div>
+          </div>
+        </div>
+        <!--./card-->
+        <!--card 3-->
+        <div class="col-xs-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header mx-auto">
+              <img data-src="/assets/images/helpyourbrain.png" class="w-100 h-100 our-works-img lozad"
+                alt="helpyourbrain">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-uppercase font-weight-bold"><a
+                  href="https://gello94.github.io/second-milestone-antonio/" target="_blank">#HELPYOURBRAIN</a></h5>
+              <p class="card-text text-muted">Gioco di Memoria</p>
+            </div>
+          </div>
+        </div>
+        <!--./card-->
+        <!--End Row 1-->
+
+        <!--Row 2-->
+        <!--card 1-->
+        <div class="col-xs-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header mx-auto">
+              <img data-src="/assets/images/photoworld.jpg" class="w-100 h-100 our-works-img lozad" alt="photoworld">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-uppercase font-weight-bold"><a
+                  href="https://gello94.github.io/first-milestone-antonio/" target="_blank">Augello Photoworld</a></h5>
+              <p class="card-text text-muted">Sito Web Fotografico</p>
+            </div>
+          </div>
+        </div>
+        <!--./card-->
+        <!--card 2-->
+        <div class="col-xs-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header mx-auto">
+              <img data-src="/assets/images/uninfermiere.jpg" class="w-100 h-100 our-works-img lozad" alt="photoworld">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-uppercase font-weight-bold"><a
+                  href="https://uninfermiereinirlanda.herokuapp.com/" target="_blank">Un Infermiere In Irlanda</a></h5>
+              <p class="card-text text-muted">Blog</p>
+            </div>
+          </div>
+        </div>
+        <!--./card-->
+        <!--card 3-->
+        <div class="col-xs-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header mx-auto">
+              <img data-src="/assets/images/covid.jpg" class="w-100 h-100 our-works-img lozad" alt="photoworld">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-uppercase darrell font-weight-bold"><a
+                  href="https://gello94.github.io/covid-19-Italy-status-and-update/" target="_blank">Covid-19, Analisi e
+                  Visualizzazione dei
+                  Dati</a></h5>
+            </div>
+          </div>
+        </div>
+        <!--./card-->
+        <!--End Row 2-->
+      </div>
+    </div>
+    <!--Web Works Cards-->
+    <!-- End Our Web Works-->
+
+    <!--Quote-->
+    <div class="quote-container w-100">
+      <div class="container">
+        <div class="row text-uppercase text-center text-dark">
+          <div class="quote-text">
+            <div class="card-body">
+              <h2 class="card-title font-weight-bold">“TUTTO È PROGETTATO, MA ALCUNE COSE SONO PROGETTATE BENE.”
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Quote-->
+
+    <!--Services-->
+    <div class="container mt-5 mb-5" id="servizi">
+      <div class="text-center">
+        <h1 class="text-uppercase font-weight-bold">Servizi</h1>
+        <h2>Prezzi flessibili e personalizzati in base alle esigenze</h2>
+      </div>
+
+      <hr class="section-hr mt-5 mb-5">
+
+      <div class="row text-center">
+        <!--Row 1-->
+        <!--card 1-->
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-5">
+          <div class="card h-100">
+            <div class="services-heart"><i class="fas fa-code"></i></div>
+            <div class="row">
+              <div class="card-body">
+                <p class="services-text-header text-uppercase">Siti Web</p>
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--./card 1-->
+        <!--card 2-->
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-5">
+          <div class="card h-100">
+            <div class="services-heart"><i class="fas fa-comments"></i></div>
+            <div class="row">
+              <div class="card-body">
+                <p class="services-text-header text-uppercase">Blog</p>
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--./card 2-->
+        <!--card 3-->
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-5">
+          <div class="card h-100">
+            <div class="services-heart"><i class="fas fa-euro-sign"></i></div>
+            <div class="row">
+              <div class="card-body">
+                <p class="services-text-header text-uppercase">E-Commerce</p>
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--./card 3-->
+        <!--End Row 1-->
+
+
+      </div>
+    </div>
+    <!--Services-->
+
+
+    <!--Reviews
+    <div class="info-section w-100">
+      <div class="container">
+        <div class="row row-info-section text-center text-light">
+
+    <div class="row w-100">
+      <div class="container-fluid w-75">
+        <h1 class="carousel-header text-centered mb-3"></h1>
+        <div class="container-carousel bg-container-carousel mt-3 mb-3">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-12">
+                    <img class="carousel-img mb-3 lozad" data-src="assets/images/user.png" alt="First slide">
+                  </div>
+                  <div class="col-12">
+                    <p class="carousel-reviews-text font-italic">"Incidunt deleniti blanditiis quas aperiam
+                      recusandae
+                      consequatur
+                      ullam
+                      quibusdam
+                      cum libero illo rerum! Powerful Layout with Responsive functionality that
+                      can be adapted to any screen size. Resize browser to view."</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="carousel-review-name">- John Doe</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="carousel-review-company">XYZ Inc.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-12">
+                    <img class="carousel-img mb-3 lozad" data-src="assets/images/user.png" alt="First slide">
+                  </div>
+                  <div class="col-12">
+                    <p class="carousel-reviews-text font-italic">"Incidunt deleniti blanditiis quas aperiam
+                      recusandae
+                      consequatur
+                      ullam
+                      quibusdam
+                      cum libero illo rerum! Powerful Layout with Responsive functionality that
+                      can be adapted to any screen size. Resize browser to view."</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="carousel-review-name">- John Doe</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="carousel-review-company">XYZ Inc.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-12">
+                    <img class="carousel-img mb-3 lozad" data-src="assets/images/user.png" alt="First slide">
+                  </div>
+                  <div class="col-12">
+                    <p class="carousel-reviews-text font-italic">"Incidunt deleniti blanditiis quas aperiam
+                      recusandae
+                      consequatur
+                      ullam
+                      quibusdam
+                      cum libero illo rerum! Powerful Layout with Responsive functionality that
+                      can be adapted to any screen size. Resize browser to view."</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="carousel-review-name">- John Doe</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="carousel-review-company">XYZ Inc.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  End Reviews-->
+
+
+    <!--Our Team-->
+    <div class="container mt-5 mb-5" id="info">
+      <div class="text-center">
+        <h1>Info Personali</h1>
+      </div>
+
+      <div class="row text-center">
+        <!--card 1-->
+        <div class="col-xs-12 mx-auto">
+          <div class="card h-100 ">
+            <div class="card-header user-card-header mx-auto">
+            </div>
+            <div class="row">
+              <div class="card-body">
+                <a class="text-dark" href="https://onlineresumeantonio.herokuapp.com/" target="_blank">
+                  <h5 class="card-title text-uppercase">Antonio
+                    Augello</h5>
+                </a>
+                <p class="card-text text-uppercase font-italic text-success">Web Developer</p>
+                <p class="card-text text-uppercase font-italic text-success">Skills</p>
+                <div class="list-inline social-links">
+                  <ul class="list-inline skills-icon d-inline-flex row">
+                    <li class="col-sm-6 col-md-4"><i class="fab fa-html5 "></i>HTML</li>
+                    <li class="col-sm-6 col-md-4"><i class="fab fa-css3-alt"></i>CSS</li>
+                    <li class="col-sm-6 col-md-4"><i class="fab fa-sass"></i>SASS</li>
+                    <li class="col-sm-6 col-md-4"><i class="fab fa-js-square"></i>JavaScript</li>
+                    <li class="col-sm-6 col-md-4"><i class="fab fa-python"></i>Python</li>
+                    <li class="col-sm-6 col-md-4"><i class="fab fa-aws"></i>AWS</li>
+                  </ul>
+                </div>
+                <div class="list-inline social-links">
+                  <ul class="list-inline social-links d-inline-flex">
+                    <li class="mr-1"><a target="_blank" href="https://www.linkedin.com/in/antonio-augello-aba83911a/"><i
+                          class="fab fa-linkedin"></i></a></li>
+                    <li class="mr-1"><a target=" _blank" href="https://github.com/gello94"><i
+                          class="fab fa-github"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--./card 1-->
+      </div>
+    </div>
+    <!--End Our Team-->
+
+    <!--Contact Section-->
+    <div class="container mt-5 mb-5" id="contatti">
+      <div class="text-center">
+        <h1 class="text-uppercase font-weight-bold">Contattami</h1>
+        <h2>Hai domande? Compila il form in basso per contattarmi</h2>
+      </div>
+    </div>
+
+    <!--Contact Form-->
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6 mb-5">
+          <!--Alert-->
+          <div id="email-alert"></div>
+          <!--./Alert-->
+          <form class="text-uppercase font-weight-bold" onsubmit="return sendMail(this);">
+            <div class="row">
+              <div class="col-4 contact_us_title">
+                <p class="font-weight-bold">Contattami</p>
+              </div>
+              <div class="col-8 contact_us_svg"></div>
+            </div>
+            <div class="form-row">
+              <div class=" form-group col-md-4">
+                <label for="inputName">Nome*</label>
+                <input type="text" class="form-control" name="inputName" id="inputName" placeholder="" required>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputEmail">Email*</label>
+                <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder="" required>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputPhone">Numero Telefonico</label>
+                <input type="number" class="form-control" name="inputPhone" id="inputPhone" placeholder="">
+              </div>
+            </div>
+            <div class="form-row">
+
+              <div class="form-group col-md-8">
+                <label for="inputSubject">Oggetto*</label>
+                <input type="text" class="form-control" name="inputSubject" id="inputSubject" placeholder="" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-12">
+                <label for="inputMessage">Messaggio*</label>
+                <textarea class="form-control" id="inputMessage" name="inputMessage" rows="3" required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn text-light font-weight-bold text-uppercase send_message_btn">Invia
+              Ora</button>
+          </form>
+        </div>
+        <!--End Contact Form-->
+
+        <!--Map-->
+        <div class="col-12 col-lg-6">
+          <!-- MAP TO INSERT IN CONTACT INFO!-->
+          <div id="mapouter">
+            <iframe width='100%' height='400px' id='mapcanvas'
+              src='https://maps.google.com/maps?q=san%giovanni%rotondo&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed'
+              frameborder='0' scrolling='no' marginheight='0' marginwidth='0'>
+              <div class="zxos8_gm"><a rel="bookmark"
+                  href="https://www.freecarcheck.co.uk/guides/find-car-owner-by-vehicle-registration-number-plate">this</a>
+              </div>
+              <div style='overflow:hidden;'>
+                <div id='gmap_canvas' style='height:100%;width:100%;'></div>
+              </div>
+              <div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google
+                    Map</a></small>
+              </div>
+            </iframe>
+          </div>
+          <!--./MAP-->
+        </div>
+        <!--End Map-->
+      </div>
+      <!--End Contact Section-->
+
+    </div>
+    <!--End Main-->
+
+    <!-- FOOTER HERE  -->
+    <footer class="footer py-4 bg-dark text-white-50">
+      <div class="container">
+        <div class="row">
+          <!--Footer Right-->
+          <div class="col-12 col-lg-6">
+            <p class="text-muted">© 2020 - Antonio Augello</p>
+            <p class="text-muted">Terms of Use / Privacy Policy</p>
+          </div>
+          <!--End Footer Right-->
+
+          <!--Footer Left-->
+          <div class="col-sm-12 col-md-6 footer-right-col">
+            <div class="list-inline">
+              <ul class="list-inline social-links-footer d-inline-flex">
+                <li class="mr-1"><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="mr-1"><a target=" _blank" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="mr-1"><a target="_blank" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li class="mr-1"><a target=" _blank" href="#"><i class="fab fa-vimeo"></i></a></li>
+                <li class="mr-1"><a target=" _blank" href="#"><i class="fab fa-pinterest"></i></a></li>
+                <li class="mr-1"><a target=" _blank" href="#"><i class="fab fa-github"></i></a></li>
+                <li class="mr-1"><a target=" _blank" href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+              <p class="text-muted"><i class="far fa-envelope mr-2"></i>toni.gello94@gmail.com</p>
+            </div>
+            <!--End Footer Left-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+
+    <!-- jQuery -->
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+    <!--Bootstrap JS-->
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--Custom Script-->
+    <script src="assets/vendor/js/custom.js"></script>
+    <!--Email Js Script-->
+    <script src="assets/vendor/js/email.js"></script>
+    <!-- lozad Loader-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+</body>
+
+</html>
