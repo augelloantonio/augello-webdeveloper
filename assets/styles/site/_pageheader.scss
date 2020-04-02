@@ -7,10 +7,6 @@
     text-align: center;
 }
 
-@media (max-width:756px) {
-    .header-text {}
-}
-
 
 .full-width-header {
     height: 75vh;
@@ -26,6 +22,12 @@
 
 .jumbotron-text {
     font-size: 64px;
+}
+
+@media (max-width:756px) {
+    .jumbotron-text {
+        font-size: 34px;
+    }
 }
 
 .lead {

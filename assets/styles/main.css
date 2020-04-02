@@ -1,15 +1,14 @@
 /* General Style */
 @import url("https://fonts.googleapis.com/css?family=Crete+Round&display=swap");
-body,
-html {
-  width: 100%;
+html,
+body {
   height: 100%;
-  margin: 0;
-  padding: 0;
+  overflow: auto;
 }
 
 body {
   width: 100%;
+  position: absolute;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #444444;
@@ -72,6 +71,12 @@ h2 {
 
 .jumbotron-text {
   font-size: 64px;
+}
+
+@media (max-width: 756px) {
+  .jumbotron-text {
+    font-size: 34px;
+  }
 }
 
 .lead {
