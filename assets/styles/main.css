@@ -58,7 +58,7 @@ h2 {
 .full-width-header {
   height: 75vh;
   max-height: 800px;
-  background-image: url("/assets/images/development.jpeg");
+  background-image: url("assets/images/development.jpeg");
   background-size: cover;
   background-repeat: round;
 }
@@ -112,7 +112,7 @@ a.nav-search {
   border-radius: 50% !important;
   width: 150px !important;
   height: 150px !important;
-  background-image: url("/assets/images/img_profile.jpg");
+  background-image: url("assets/images/img_profile.jpg");
 }
 
 .skills-icon {
