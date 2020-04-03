@@ -9,15 +9,15 @@
 
 
 .full-width-header {
-    height: 75vh;
-    max-height: 800px;
-    background-image: url('../images/development.jpeg');
-    background-size: cover;
-    background-repeat: round;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
 }
 
-.full-width-logo {
-    background-color: #000000a1;
+.logo_img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain
 }
 
 .jumbotron-text {
